@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <nameField>Name</nameField>
+    <fields>
+        <fullName>Name</fullName>
+        <externalId>false</externalId>
+        <label>Student Name</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Student_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Student ID</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Grade__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Grade</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+</CustomObject>

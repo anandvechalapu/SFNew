@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <status>Active</status>
+
+    <label>Edit Student Records</label>
+    <description>Apex controller to handle editing of Student records such as student name, student ID, student grade using a Lightning Web Component.</description>
+
+    <userStory>As a user, I want to be able to edit Student records such as student name , student ID, student grade. using a Lightning Web Component and Apex class so that I can improve the user experience for my organization's Salesforce users.</userStory>
+
+    <acceptanceCriteria>
+        <criterion>The Lightning Web Component should use a lightning-record-edit-form to display the Student record fields such as student name , student ID, student grade.</criterion>
+        <criterion>The Apex class should handle the record updates and perform any necessary validation.</criterion>
+        <criterion>The user should be able to edit all fields on the Student record such as student name , student ID, student grade.</criterion>
+        <criterion>Any validation errors should be displayed to the user in a clear and user-friendly manner.</criterion>
+        <criterion>The Lightning Web Component and Apex class should adhere to Salesforce best practices and coding standards.</criterion>
+    </acceptanceCriteria>
+
+    <definitionOfDone>
+        <criterion>The Lightning Web Component and Apex class should be developed and tested in a Salesforce sandbox or scratch org.</criterion>
+        <criterion>The code should be thoroughly reviewed by at least one other developer.</criterion>
+        <criterion>Automated tests should be written to ensure that the code works as expected and any potential issues are caught early.</criterion>
+        <criterion>The code should be deployed to a production environment using a Salesforce change set or another deployment tool.</criterion>
+        <criterion>The code should be documented, including any assumptions or constraints.</criterion>
+        <criterion>The system administrator should be trained on how to use and maintain the new functionality.</criterion>
+    </definitionOfDone>
+</ApexClass>
